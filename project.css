@@ -1,0 +1,172 @@
+@media (max-width:768px) {
+    .ph { display: none;
+    }
+}
+
+.ph{
+    margin-top: 30px;
+    width: 400px;
+}
+.card{
+    background-color: rgb(236, 232, 217);
+}
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    
+}
+
+.gy{
+    margin: 0 50px 0 50px;
+}
+
+
+.wh{
+    background-color: white;
+box-shadow:  6px 6px 12px #bebebe,
+             -6px -6px 12px #ffffff;
+}
+.head{
+    margin: 0px 70px 0 70px;
+    position: relative;
+    top: 20px;
+}
+
+.ni{
+    margin: 0 65px 0 65px ;
+    border: 0;
+    background-color: #ffffff;
+}
+.twit{
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    background-color: white;
+}
+.twi{
+    width: 100%;
+}
+.twi:nth-of-type(1){
+    width: 90%;
+}
+
+.what{
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(237, 246, 253);
+}
+.wha{
+    width: 100%;
+
+}
+.you{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+}
+.fae{
+
+    width: 100%;
+}
+
+.amazig{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(247, 246, 244);
+    align-items: center;
+    justify-content: center;
+}
+.ama{
+    margin-top: 20px;
+    width:100% ;
+    padding-left: 30px;
+}
+
+.ji{
+    border: none;
+}
+.sub{
+    background-color: rgb(236, 232, 217);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.con{
+    padding: 5%;
+    background-color: rgb(236, 232, 217);
+    letter-spacing: 2px;
+}
+.foot{
+    background-color: rgb();
+}
+
+@media (max-width:450px){
+    .twit{
+        padding: 20px;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        height: 40vh;
+        flex-direction: column;
+        background-color: white;
+    }
+    .twi{
+        width: 100%;
+    }
+    .twi:nth-of-type(1){
+        width: 90%;
+    }
+    .what{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        background-color:rgb(237, 246, 253);
+    }
+    .wha{
+        width: 100%;
+    
+    }
+    .you{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 60vh;
+        padding: 10px;
+    }
+    .fae{
+    
+        width: 100%;
+    }
+    .amazig{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40vh;
+        background-color:rgb(247, 246, 244);
+        align-items: center;
+        justify-content: center;
+    }
+    .ama{
+        margin-top: 20px;
+        width:100% ;
+        padding-left: 30px;
+    }
+}
+
